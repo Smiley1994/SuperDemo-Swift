@@ -1,0 +1,23 @@
+PODS:
+  - ShadowBase (0.0.1)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - ShadowBase (from `Module/ShadowBase/`)
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  ShadowBase:
+    :path: Module/ShadowBase/
+
+SPEC CHECKSUMS:
+  ShadowBase: 66b66dc91e9bd8d0355481d6c06ca7008c2e1e7e
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 052e11c445a516335860a39a589d7763977f2f4f
+
+COCOAPODS: 1.10.2

@@ -1,0 +1,6 @@
+framework module ShadowBase {
+  umbrella header "ShadowBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
