@@ -7,16 +7,21 @@
 //
 
 import UIKit
+import Login
 
 class XSUserViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.randomColor
         
-
     }
 
     
+    func openLogin() {
+        let login = XSLoginViewController()
+        self.navigationController?.pushViewController(login, animated: true)
+    }
 
 }

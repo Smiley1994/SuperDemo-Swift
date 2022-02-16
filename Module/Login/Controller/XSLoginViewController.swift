@@ -7,9 +7,9 @@
 
 import UIKit
 
-class XSLoginViewController: UIViewController {
+public class XSLoginViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white;
         // Do any additional setup after loading the view.

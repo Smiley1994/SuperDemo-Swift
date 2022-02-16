@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-SuperDemo-Swift/Pods-SuperDemo-Swift-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Login/Login.framework
 ${BUILT_PRODUCTS_DIR}/ShadowBase/ShadowBase.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

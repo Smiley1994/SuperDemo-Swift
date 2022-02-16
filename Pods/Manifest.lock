@@ -1,8 +1,10 @@
 PODS:
+  - Login (0.0.1)
   - ShadowBase (0.0.1)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
+  - Login (from `Module/Login/`)
   - ShadowBase (from `Module/ShadowBase/`)
   - SnapKit (~> 5.0.0)
 
@@ -11,13 +13,16 @@ SPEC REPOS:
     - SnapKit
 
 EXTERNAL SOURCES:
+  Login:
+    :path: Module/Login/
   ShadowBase:
     :path: Module/ShadowBase/
 
 SPEC CHECKSUMS:
+  Login: dcabb86a03734e88274903a42c187af54c447570
   ShadowBase: 66b66dc91e9bd8d0355481d6c06ca7008c2e1e7e
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 052e11c445a516335860a39a589d7763977f2f4f
+PODFILE CHECKSUM: e01d4f012a4acf9baf31b259bbea8d441f88bc6d
 
 COCOAPODS: 1.10.2

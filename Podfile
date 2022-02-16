@@ -7,6 +7,7 @@ target 'SuperDemo-Swift' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   use_frameworks!
 
+  pod 'Login', :path => 'Module/Login/'
   pod 'ShadowBase', :path => 'Module/ShadowBase/'
   pod 'SnapKit', '~> 5.0.0'
   # Pods for XSSuperDemo-Swift
