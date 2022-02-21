@@ -1,0 +1,26 @@
+{
+  "name": "Common",
+  "version": "0.0.1",
+  "summary": "A short description of Common.",
+  "description": "Projects Basic Component!!",
+  "homepage": "http://EXAMPLE/Common",
+  "license": "MIT",
+  "authors": {
+    "macrolor": "smileysun1994@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Smiley1994/Common.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

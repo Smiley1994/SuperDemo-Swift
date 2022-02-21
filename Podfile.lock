@@ -1,15 +1,19 @@
 PODS:
-  - Login (0.0.1)
+  - Alamofire (5.5.0)
+  - Login (0.0.1):
+    - ShadowBase
   - ShadowBase (0.0.1)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.5)
   - Login (from `Module/Login/`)
   - ShadowBase (from `Module/ShadowBase/`)
   - SnapKit (~> 5.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Alamofire
     - SnapKit
 
 EXTERNAL SOURCES:
@@ -19,10 +23,11 @@ EXTERNAL SOURCES:
     :path: Module/ShadowBase/
 
 SPEC CHECKSUMS:
-  Login: dcabb86a03734e88274903a42c187af54c447570
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Login: 9b61e9d7e2f17f4a5b06995855ca0f3690dd8285
   ShadowBase: 66b66dc91e9bd8d0355481d6c06ca7008c2e1e7e
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: e01d4f012a4acf9baf31b259bbea8d441f88bc6d
+PODFILE CHECKSUM: d992a310bd7d55642c799268194958d168a1418a
 
 COCOAPODS: 1.10.2

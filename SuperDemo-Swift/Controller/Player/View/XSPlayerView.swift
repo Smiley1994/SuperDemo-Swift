@@ -76,7 +76,7 @@ class XSPlayerView: UIView {
         avPlayer.currentItem?.asset.cancelLoading()
         playerItem.removeObserver(self, forKeyPath: LoadedTimeRanges)
         playerItem.removeObserver(self, forKeyPath: Status)
-        avPlayer.removeTimeObserver(timeObserver)
+        avPlayer.removeTimeObserver(timeObserver!)
         avPlayer = nil
     }
     

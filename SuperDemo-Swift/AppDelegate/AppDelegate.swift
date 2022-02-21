@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ShadowBase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        } else {
 //            self.createWindow()
 //        }
+        ShadowBase.initialize(appkey: "abc ....")
         self.createWindow()
         return true
     }

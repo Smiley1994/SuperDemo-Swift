@@ -6,12 +6,19 @@
 //
 
 import UIKit
+import ShadowBase
 
 public class XSLoginViewController: UIViewController {
 
+    public override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        ShadowBase.track(event: "openLogin", property: ["pv" : "Login", "time" : Date.timeIntervalBetween1970AndReferenceDate])
+    }
     public override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white;
+        
         // Do any additional setup after loading the view.
     }
     

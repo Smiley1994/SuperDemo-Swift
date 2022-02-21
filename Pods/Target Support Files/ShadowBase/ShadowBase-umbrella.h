@@ -10,8 +10,6 @@
 #endif
 #endif
 
-#import "XSSwizzle.h"
-#import "ShadowBase.h"
 
 FOUNDATION_EXPORT double ShadowBaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char ShadowBaseVersionString[];
