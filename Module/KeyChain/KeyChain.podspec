@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint Login.podspec' to ensure this is a
+#  Be sure to run `pod spec lint keyChain.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "Login"
+  spec.name         = "KeyChain"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of Login."
+  spec.summary      = "A short description of KeyChain."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-	Login Module
+	keyChain Tool
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/Login"
+  spec.homepage     = "http://EXAMPLE/KeyChain"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,8 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Smiley1994/Login.git", :tag => spec.version.to_s }
-
+  spec.source       = { :git => "https://github.com/Smiley1994/KeyChain.git", :tag => spec.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,9 +90,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "**/**/*"
-#  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "KeyChain", "KeyChain/**/*.{h,m,swift}"
+  spec.exclude_files = "KeyChain/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -117,7 +115,7 @@ Pod::Spec.new do |spec|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-  
+
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
@@ -135,7 +133,8 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  
-  spec.dependency 'ShadowBase'
 
 end
+
+
+

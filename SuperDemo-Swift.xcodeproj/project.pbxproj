@@ -20,8 +20,6 @@
 		0BB49CBC27B6494900050B01 /* XSIQiYiPlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CA927B6494900050B01 /* XSIQiYiPlayButton.swift */; };
 		0BB49CBD27B6494900050B01 /* XSAnimationCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CAA27B6494900050B01 /* XSAnimationCircleView.swift */; };
 		0BB49CBE27B6494900050B01 /* XSFitDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CAB27B6494900050B01 /* XSFitDevice.swift */; };
-		0BB49CBF27B6494900050B01 /* KeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CAD27B6494900050B01 /* KeychainConfiguration.swift */; };
-		0BB49CC027B6494900050B01 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CAE27B6494900050B01 /* KeychainPasswordItem.swift */; };
 		0BB49CC127B6494900050B01 /* ArchiveMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CB027B6494900050B01 /* ArchiveMethod.swift */; };
 		0BB49CC227B6494900050B01 /* XSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CB227B6494900050B01 /* XSConstants.swift */; };
 		0BB49CC427B6494900050B01 /* ANN9PostDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CB627B6494900050B01 /* ANN9PostDevice.swift */; };
@@ -81,8 +79,6 @@
 		0BB49CA927B6494900050B01 /* XSIQiYiPlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSIQiYiPlayButton.swift; sourceTree = "<group>"; };
 		0BB49CAA27B6494900050B01 /* XSAnimationCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSAnimationCircleView.swift; sourceTree = "<group>"; };
 		0BB49CAB27B6494900050B01 /* XSFitDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSFitDevice.swift; sourceTree = "<group>"; };
-		0BB49CAD27B6494900050B01 /* KeychainConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainConfiguration.swift; sourceTree = "<group>"; };
-		0BB49CAE27B6494900050B01 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
 		0BB49CB027B6494900050B01 /* ArchiveMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveMethod.swift; sourceTree = "<group>"; };
 		0BB49CB227B6494900050B01 /* XSConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSConstants.swift; sourceTree = "<group>"; };
 		0BB49CB427B6494900050B01 /* XSCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCommon.h; sourceTree = "<group>"; };
@@ -209,7 +205,6 @@
 			children = (
 				0BB49CB127B6494900050B01 /* Constants */,
 				0BB49CAF27B6494900050B01 /* DataMethod */,
-				0BB49CAC27B6494900050B01 /* Keychain */,
 				0BB49CB327B6494900050B01 /* Other */,
 				0BB49CA727B6494900050B01 /* UIUtils */,
 				0BB49CA227B6494900050B01 /* XSExtension */,
@@ -237,15 +232,6 @@
 				0BB49CAB27B6494900050B01 /* XSFitDevice.swift */,
 			);
 			path = UIUtils;
-			sourceTree = "<group>";
-		};
-		0BB49CAC27B6494900050B01 /* Keychain */ = {
-			isa = PBXGroup;
-			children = (
-				0BB49CAD27B6494900050B01 /* KeychainConfiguration.swift */,
-				0BB49CAE27B6494900050B01 /* KeychainPasswordItem.swift */,
-			);
-			path = Keychain;
 			sourceTree = "<group>";
 		};
 		0BB49CAF27B6494900050B01 /* DataMethod */ = {
@@ -555,14 +541,12 @@
 				0BB49CE827B65ACD00050B01 /* XSIndexNavigationView.swift in Sources */,
 				0BB49CBC27B6494900050B01 /* XSIQiYiPlayButton.swift in Sources */,
 				0BB49CCA27B64DBE00050B01 /* XSSplashViewController.swift in Sources */,
-				0BB49CC027B6494900050B01 /* KeychainPasswordItem.swift in Sources */,
 				0BB49CEF27B65B0B00050B01 /* XSPlayerView.swift in Sources */,
 				0BB49CBD27B6494900050B01 /* XSAnimationCircleView.swift in Sources */,
 				0BB49CE027B65ACD00050B01 /* XSOtherViewController.swift in Sources */,
 				0BB49CE427B65ACD00050B01 /* XSCardFlowLayout.swift in Sources */,
 				0BB49CB827B6494900050B01 /* XSExtension+UI.swift in Sources */,
 				0BB49CBB27B6494900050B01 /* XSScreenFit.swift in Sources */,
-				0BB49CBF27B6494900050B01 /* KeychainConfiguration.swift in Sources */,
 				0BB49CE927B65ACD00050B01 /* XSDefaultCell.swift in Sources */,
 				0BB49C6627B6035600050B01 /* AppDelegate.swift in Sources */,
 				0BB49CCC27B64DBE00050B01 /* XSLeftMenuViewController.swift in Sources */,

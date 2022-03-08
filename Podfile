@@ -10,6 +10,7 @@ target 'SuperDemo-Swift' do
 #  pod 'Common', :path => 'Module/Common/'
   pod 'Login', :path => 'Module/Login/'
   pod 'ShadowBase', :path => 'Module/ShadowBase/'
+  pod 'KeyChain', :path => 'Module/KeyChain/'
   
   pod 'Alamofire', '~> 5.5'
   pod 'SnapKit', '~> 5.0.0'

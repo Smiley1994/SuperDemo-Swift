@@ -1,0 +1,26 @@
+{
+  "name": "KeyChain",
+  "version": "0.0.1",
+  "summary": "A short description of KeyChain.",
+  "description": "keyChain Tool",
+  "homepage": "http://EXAMPLE/KeyChain",
+  "license": "MIT",
+  "authors": {
+    "macrolor": "smileysun1994@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Smiley1994/KeyChain.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "KeyChain",
+    "KeyChain/**/*.{h,m}"
+  ],
+  "exclude_files": "KeyChain/Exclude",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

@@ -13,6 +13,7 @@
     "tag": "0.0.1"
   },
   "source_files": "**/**/*",
+  "exclude_files": "Classes/Exclude",
   "dependencies": {
     "ShadowBase": [
 

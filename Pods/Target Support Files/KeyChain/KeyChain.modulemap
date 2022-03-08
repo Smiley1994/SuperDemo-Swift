@@ -1,0 +1,6 @@
+framework module KeyChain {
+  umbrella header "KeyChain-umbrella.h"
+
+  export *
+  module * { export * }
+}
