@@ -15,6 +15,7 @@ public class XSLoginViewController: UIViewController {
         
         ShadowBase.track(event: "openLogin", property: ["pv" : "Login", "time" : Date.timeIntervalBetween1970AndReferenceDate])
     }
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white;

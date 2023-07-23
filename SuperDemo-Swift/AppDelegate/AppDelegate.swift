@@ -7,6 +7,7 @@
 
 import UIKit
 import ShadowBase
+import Mixpanel
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,8 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        } else {
 //            self.createWindow()
 //        }
-        ShadowBase.initialize(appkey: "abc ....")
         self.createWindow()
+        
+//        self.setupMixpanel()
+//        self.setupShadowBase()
+        
         return true
     }
     
@@ -34,7 +38,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
     }
 
-
+    func setupMixpanel () {
+        Mixpanel.initialize(token: "3be56d48928992e6c0b74605daec6087")
+        
+        Mixpanel.mainInstance().track(event: "Sign Up", properties: [
+                "source": "Pat's affiliate site",
+                "Opted out of email": true
+            ])
+        
+        Mixpanel.mainInstance().flush()
+    }
+    
+    func setupShadowBase () {
+        ShadowBase.initialize(appkey: "abc ....")
+    }
 
 }
 

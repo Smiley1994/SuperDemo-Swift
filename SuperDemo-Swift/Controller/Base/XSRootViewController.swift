@@ -33,6 +33,7 @@ class XSRootViewController: UITabBarController {
         userViewController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.red], for: .selected)
         let userNavgationViewController = UINavigationController(rootViewController: userViewController)
         
+        
         viewControllers = [indexNavgationViewController, userNavgationViewController]
         
         self.selectedIndex = 0

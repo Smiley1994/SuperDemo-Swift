@@ -3,6 +3,9 @@ PODS:
   - KeyChain (0.0.1)
   - Login (0.0.1):
     - ShadowBase
+  - Mixpanel-swift (3.1.4):
+    - Mixpanel-swift/Complete (= 3.1.4)
+  - Mixpanel-swift/Complete (3.1.4)
   - ShadowBase (0.0.1)
   - SnapKit (5.0.1)
 
@@ -10,12 +13,14 @@ DEPENDENCIES:
   - Alamofire (~> 5.5)
   - KeyChain (from `Module/KeyChain/`)
   - Login (from `Module/Login/`)
+  - Mixpanel-swift
   - ShadowBase (from `Module/ShadowBase/`)
   - SnapKit (~> 5.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - Mixpanel-swift
     - SnapKit
 
 EXTERNAL SOURCES:
@@ -28,11 +33,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
-  KeyChain: e0b6cf0eca74654ba9f99ecdcde2ab9dea89937a
+  KeyChain: 76354cc5f5c37b74cff04e9dd992f79cca0fa981
   Login: cf7b8853eaeeb6ba133029576b2eadcdefcccc07
+  Mixpanel-swift: 3ce40d07c05e437bf9258fc0dee9f214c4d5ed8d
   ShadowBase: 66b66dc91e9bd8d0355481d6c06ca7008c2e1e7e
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: d273474fceca19edfaa4a269bb5d5bdbbd65a9c8
+PODFILE CHECKSUM: eeb8e07704850e97602648aac1d0671a27ba4e64
 
 COCOAPODS: 1.10.2

@@ -14,7 +14,7 @@
   },
   "source_files": [
     "KeyChain",
-    "KeyChain/**/*.{h,m}"
+    "KeyChain/**/*.{h,m,swift}"
   ],
   "exclude_files": "KeyChain/Exclude",
   "platforms": {

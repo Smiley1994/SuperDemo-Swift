@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Mixpanel
 
 class XSIndexViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
@@ -74,6 +74,8 @@ class XSIndexViewController: UIViewController,UITableViewDelegate,UITableViewDat
         let type = dataArray[indexPath.row]
         
         if type == "ScrollCard" {
+            Mixpanel.mainInstance().track(event: "Open Card", properties: ["time":"123456",
+                                                                           "type":"click"])
             openScrollCardViewController()
         } else if type == "NoteDetail" {
             let playerViewController = XSPlayerViewController()
