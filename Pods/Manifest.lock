@@ -18,7 +18,7 @@ DEPENDENCIES:
   - SnapKit (~> 5.0.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Alamofire
     - Mixpanel-swift
     - SnapKit
@@ -33,12 +33,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
-  KeyChain: 76354cc5f5c37b74cff04e9dd992f79cca0fa981
-  Login: cf7b8853eaeeb6ba133029576b2eadcdefcccc07
+  KeyChain: 8b7a3bc1ac77d2175e793df2cb05ba1b16e37238
+  Login: b4a98c32364150e913a88f3f63b4491613cc798c
   Mixpanel-swift: 3ce40d07c05e437bf9258fc0dee9f214c4d5ed8d
-  ShadowBase: 66b66dc91e9bd8d0355481d6c06ca7008c2e1e7e
+  ShadowBase: 50e47d4a6d5e3d0c09bea4e4788eeefbc676fc96
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: eeb8e07704850e97602648aac1d0671a27ba4e64
+PODFILE CHECKSUM: 6417a5e41d589746d993e0dbfb0968b6d192981c
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.14.2
