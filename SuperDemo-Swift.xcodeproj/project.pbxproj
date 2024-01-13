@@ -37,6 +37,15 @@
 		0BB49CEF27B65B0B00050B01 /* XSPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CED27B65B0B00050B01 /* XSPlayerView.swift */; };
 		0BB49CF027B65B0B00050B01 /* XSPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CEE27B65B0B00050B01 /* XSPlayerViewController.swift */; };
 		6AFF31CCED27D53E0DCA6698 /* Pods_SuperDemo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA32DDF8EA16ECCC733236C /* Pods_SuperDemo_Swift.framework */; };
+		71AE428F2B4ECFD00012248B /* XSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE428E2B4ECFD00012248B /* XSBaseViewController.swift */; };
+		71AE42912B4ED12B0012248B /* XSListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE42902B4ED12B0012248B /* XSListViewController.swift */; };
+		71AE42962B4ED1BD0012248B /* XSBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE42952B4ED1BD0012248B /* XSBaseViewModel.swift */; };
+		71AE42982B50050A0012248B /* XSBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE42972B50050A0012248B /* XSBaseModel.swift */; };
+		71AE42A12B5051E20012248B /* XSListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE42A02B5051E10012248B /* XSListTableViewCell.swift */; };
+		71AE42A32B521E110012248B /* XSListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE42A22B521E110012248B /* XSListViewModel.swift */; };
+		71AE42AA2B5244C30012248B /* XSTestListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE42A92B5244C30012248B /* XSTestListViewModel.swift */; };
+		71AE42AC2B5245740012248B /* XSTestListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE42AB2B5245740012248B /* XSTestListTableViewCell.swift */; };
+		71AE42AE2B5247240012248B /* XSTestListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE42AD2B5247240012248B /* XSTestListViewController.swift */; };
 		71D1E9ED2AFD288C0048AC6E /* XSExtension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1E9EC2AFD288C0048AC6E /* XSExtension+UIImage.swift */; };
 		71D1E9EF2AFD2A1E0048AC6E /* XSExtension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1E9EE2AFD2A1E0048AC6E /* XSExtension+UIColor.swift */; };
 		71D1E9F12AFD2C020048AC6E /* XSExtension+UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1E9F02AFD2C020048AC6E /* XSExtension+UICollectionViewCell.swift */; };
@@ -76,6 +85,15 @@
 		0BB49CED27B65B0B00050B01 /* XSPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlayerView.swift; sourceTree = "<group>"; };
 		0BB49CEE27B65B0B00050B01 /* XSPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlayerViewController.swift; sourceTree = "<group>"; };
 		260DF14E6711F11D3F1FD3B6 /* Pods-SuperDemo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperDemo-Swift.release.xcconfig"; path = "Target Support Files/Pods-SuperDemo-Swift/Pods-SuperDemo-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		71AE428E2B4ECFD00012248B /* XSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSBaseViewController.swift; sourceTree = "<group>"; };
+		71AE42902B4ED12B0012248B /* XSListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSListViewController.swift; sourceTree = "<group>"; };
+		71AE42952B4ED1BD0012248B /* XSBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSBaseViewModel.swift; sourceTree = "<group>"; };
+		71AE42972B50050A0012248B /* XSBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSBaseModel.swift; sourceTree = "<group>"; };
+		71AE42A02B5051E10012248B /* XSListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSListTableViewCell.swift; sourceTree = "<group>"; };
+		71AE42A22B521E110012248B /* XSListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSListViewModel.swift; sourceTree = "<group>"; };
+		71AE42A92B5244C30012248B /* XSTestListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSTestListViewModel.swift; sourceTree = "<group>"; };
+		71AE42AB2B5245740012248B /* XSTestListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSTestListTableViewCell.swift; sourceTree = "<group>"; };
+		71AE42AD2B5247240012248B /* XSTestListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSTestListViewController.swift; sourceTree = "<group>"; };
 		71D1E9EC2AFD288C0048AC6E /* XSExtension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XSExtension+UIImage.swift"; sourceTree = "<group>"; };
 		71D1E9EE2AFD2A1E0048AC6E /* XSExtension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XSExtension+UIColor.swift"; sourceTree = "<group>"; };
 		71D1E9F02AFD2C020048AC6E /* XSExtension+UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XSExtension+UICollectionViewCell.swift"; sourceTree = "<group>"; };
@@ -116,9 +134,10 @@
 		0BB49C6427B6035600050B01 /* SuperDemo-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				71AE428B2B4ECF4E0012248B /* Basic */,
 				0BB49C9F27B6483F00050B01 /* AppDelegate */,
 				0BB49CA127B6492100050B01 /* Common */,
-				0BB49CD027B658C300050B01 /* Controller */,
+				0BB49CD027B658C300050B01 /* Module */,
 				0BB49CA027B6485800050B01 /* Other */,
 			);
 			path = "SuperDemo-Swift";
@@ -213,15 +232,16 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		0BB49CD027B658C300050B01 /* Controller */ = {
+		0BB49CD027B658C300050B01 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				71AE42A42B521F650012248B /* TestList */,
 				0BB49CC527B64DAC00050B01 /* Base */,
 				0BB49CD127B65ACD00050B01 /* Index */,
 				0BB49CEB27B65B0B00050B01 /* Player */,
 				0BB49CDE27B65ACD00050B01 /* User */,
 			);
-			path = Controller;
+			path = Module;
 			sourceTree = "<group>";
 		};
 		0BB49CD127B65ACD00050B01 /* Index */ = {
@@ -288,6 +308,61 @@
 				CFA32DDF8EA16ECCC733236C /* Pods_SuperDemo_Swift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71AE428B2B4ECF4E0012248B /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				71AE42992B5032BA0012248B /* Views */,
+				71AE42942B4ED1720012248B /* ViewModels */,
+				71AE42932B4ED1640012248B /* Models */,
+				71AE42922B4ED1570012248B /* Controllers */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		71AE42922B4ED1570012248B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71AE42902B4ED12B0012248B /* XSListViewController.swift */,
+				71AE428E2B4ECFD00012248B /* XSBaseViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		71AE42932B4ED1640012248B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				71AE42972B50050A0012248B /* XSBaseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		71AE42942B4ED1720012248B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				71AE42952B4ED1BD0012248B /* XSBaseViewModel.swift */,
+				71AE42A22B521E110012248B /* XSListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		71AE42992B5032BA0012248B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71AE42A02B5051E10012248B /* XSListTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		71AE42A42B521F650012248B /* TestList */ = {
+			isa = PBXGroup;
+			children = (
+				71AE42A92B5244C30012248B /* XSTestListViewModel.swift */,
+				71AE42AB2B5245740012248B /* XSTestListTableViewCell.swift */,
+				71AE42AD2B5247240012248B /* XSTestListViewController.swift */,
+			);
+			path = TestList;
 			sourceTree = "<group>";
 		};
 		E31C8B0072A2A802366EBD3B /* Pods */ = {
@@ -413,8 +488,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71AE42AC2B5245740012248B /* XSTestListTableViewCell.swift in Sources */,
 				0BB49CB927B6494900050B01 /* XSExtension+NSObject.swift in Sources */,
 				0BB49CC127B6494900050B01 /* ArchiveMethod.swift in Sources */,
+				71AE428F2B4ECFD00012248B /* XSBaseViewController.swift in Sources */,
 				71D1E9ED2AFD288C0048AC6E /* XSExtension+UIImage.swift in Sources */,
 				0BB49CE327B65ACD00050B01 /* XSScrollCardViewController.swift in Sources */,
 				0BB49CE527B65ACD00050B01 /* XSIndexDefaultCell.swift in Sources */,
@@ -422,12 +499,17 @@
 				0BB49CBE27B6494900050B01 /* XSFitDevice.swift in Sources */,
 				71D1E9F12AFD2C020048AC6E /* XSExtension+UICollectionViewCell.swift in Sources */,
 				0BB49CCB27B64DBE00050B01 /* XSChassisViewController.swift in Sources */,
+				71AE42962B4ED1BD0012248B /* XSBaseViewModel.swift in Sources */,
+				71AE42AE2B5247240012248B /* XSTestListViewController.swift in Sources */,
 				0BB49CC227B6494900050B01 /* XSConstants.swift in Sources */,
 				0BB49CE827B65ACD00050B01 /* XSIndexNavigationView.swift in Sources */,
 				0BB49CCA27B64DBE00050B01 /* XSSplashViewController.swift in Sources */,
+				71AE42AA2B5244C30012248B /* XSTestListViewModel.swift in Sources */,
+				71AE42A32B521E110012248B /* XSListViewModel.swift in Sources */,
 				0BB49CEF27B65B0B00050B01 /* XSPlayerView.swift in Sources */,
 				0BB49CE027B65ACD00050B01 /* XSOtherViewController.swift in Sources */,
 				0BB49CE427B65ACD00050B01 /* XSCardFlowLayout.swift in Sources */,
+				71AE42A12B5051E20012248B /* XSListTableViewCell.swift in Sources */,
 				0BB49CB827B6494900050B01 /* XSExtension+UITableViewCell.swift in Sources */,
 				71D1E9EF2AFD2A1E0048AC6E /* XSExtension+UIColor.swift in Sources */,
 				0BB49CBB27B6494900050B01 /* XSScreenFit.swift in Sources */,
@@ -438,7 +520,9 @@
 				0BB49CEA27B65ACD00050B01 /* XSUserViewController.swift in Sources */,
 				0BB49CB727B6494900050B01 /* XSExtension+String.swift in Sources */,
 				0BB49CC427B6494900050B01 /* ANN9PostDevice.swift in Sources */,
+				71AE42912B4ED12B0012248B /* XSListViewController.swift in Sources */,
 				0BB49CE727B65ACD00050B01 /* XSCardCell.swift in Sources */,
+				71AE42982B50050A0012248B /* XSBaseModel.swift in Sources */,
 				0BB49CCD27B64DBE00050B01 /* XSRootViewController.swift in Sources */,
 				0BB49CE227B65ACD00050B01 /* XSNoteDetailViewController.swift in Sources */,
 				0BB49CF027B65B0B00050B01 /* XSPlayerViewController.swift in Sources */,

@@ -27,7 +27,7 @@ class XSIndexViewController: UIViewController,UITableViewDelegate,UITableViewDat
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         
-        dataArray = ["ScrollCard", "NoteDetail", "Other"]
+        dataArray = ["ScrollCard", "NoteDetail", "TestList", "Other"]
         
         createNavigation()
         createTableView()
@@ -36,7 +36,7 @@ class XSIndexViewController: UIViewController,UITableViewDelegate,UITableViewDat
     }
     
     func createNavigation() {
-        navigationView = XSIndexNavigationView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: NavgationBarHeight))
+        navigationView = XSIndexNavigationView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: NavBarHeight))
         view.addSubview(navigationView)
     }
     
@@ -74,8 +74,8 @@ class XSIndexViewController: UIViewController,UITableViewDelegate,UITableViewDat
         let type = dataArray[indexPath.row]
         
         if type == "ScrollCard" {
-            Mixpanel.mainInstance().track(event: "Open Card", properties: ["time":"123456",
-                                                                           "type":"click"])
+//            Mixpanel.mainInstance().track(event: "Open Card", properties: ["time":"123456",
+//                                                                           "type":"click"])
             openScrollCardViewController()
         } else if type == "NoteDetail" {
             let playerViewController = XSPlayerViewController()
@@ -88,6 +88,10 @@ class XSIndexViewController: UIViewController,UITableViewDelegate,UITableViewDat
                 print(backStr)
             }
             navigationController?.pushViewController(other, animated: true)
+        } else if type == "TestList" {
+            let testList = XSTestListViewController(viewModel: XSTestListViewModel())
+            testList.hidesBottomBarWhenPushed = true
+            navigationController?.pushViewController(testList, animated: true)
         }
         
     }

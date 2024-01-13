@@ -20,16 +20,22 @@ public let ScreenWidth:CGFloat = UIScreen.main.bounds.size.width
 /// 屏幕高度
 public let ScreenHeight:CGFloat = UIScreen.main.bounds.size.height
 
+/// 状态栏高度
+public func StatusBarHeight() -> CGFloat {
+    if #available(iOS 13.0, *) {
+        if let statusBarManager = UIApplication.shared.connectedScenes
+            .compactMap({ $0 as? UIWindowScene })
+            .first?.statusBarManager {
+            return statusBarManager.statusBarFrame.size.height
+        }
+    } else {
+        return UIApplication.shared.statusBarFrame.size.height
+    }
+    return 0
+}
 
-let isX = XSFitDevice.isIPhoneX();
+/// 状态栏和导航栏总高度
+public let NavBarHeight: CGFloat = StatusBarHeight() + 44;
+  
+public let TabBarHeight: CGFloat = 83;
 
-/// 导航栏高度
-public let NavgationBarHeight:CGFloat = isX ? 88 : 64
-
-/// TabBar高度
-public let TabBarHeight:CGFloat = isX ? 83 : 49
-
-/// iPhone 顶部SafeArea
-public let TopSafeAreaHeight:CGFloat = isX ? 44 : 20
-/// iPhone 底部SafeArea
-public let BottomSafeAreaHeight:CGFloat = isX ? 34 : 0

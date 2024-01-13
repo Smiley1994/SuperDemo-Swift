@@ -44,7 +44,7 @@ class XSScrollCardViewController: UIViewController, UICollectionViewDelegate, UI
     
     func createScrollCardView() {
         
-        titleLabel = UILabel(frame: CGRect(x: 0, y: NavgationBarHeight, width: ScreenWidth, height: 100))
+        titleLabel = UILabel(frame: CGRect(x: 0, y: NavBarHeight, width: ScreenWidth, height: 100))
         titleLabel.textAlignment = .center
         titleLabel.text = "当前是0"
         titleLabel.font = UIFont(name: "Helvetica-Bold", size: 30)
