@@ -27,7 +27,7 @@ class XSListViewModel <T>: XSBaseViewModel {
 //            case .success(let data):
 //                if let itemsData = data as? [[String: Any]] {
 //                    self.listArray = mappingClosure(itemsData)
-//                    self.delegate?.dataFetched()
+//                    self.delegate?.dataRequested()
 //                }
 //            case .failure(let error):
 //                print("Error fetching data: \(error.localizedDescription)")

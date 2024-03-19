@@ -33,7 +33,7 @@ class XSSplashViewController: UIViewController {
     
     func openRootViewController() {
 //        UIApplication.shared.keyWindow?.rootViewController = XSChassisViewController()
-        UIApplication.shared.windows.first?.rootViewController = XSChassisViewController()
+        UIApplication.shared.windows.first?.rootViewController = XSRootViewController()
     }
 
 }

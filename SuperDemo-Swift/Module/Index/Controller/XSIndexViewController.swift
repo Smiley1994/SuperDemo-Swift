@@ -78,9 +78,9 @@ class XSIndexViewController: UIViewController,UITableViewDelegate,UITableViewDat
 //                                                                           "type":"click"])
             openScrollCardViewController()
         } else if type == "NoteDetail" {
-            let playerViewController = XSPlayerViewController()
-            playerViewController.hidesBottomBarWhenPushed = true
-            navigationController?.pushViewController(playerViewController, animated: true)
+            let noteDetail = XSNoteDetailViewController()
+            noteDetail.hidesBottomBarWhenPushed = true
+            navigationController?.pushViewController(noteDetail, animated: true)
         } else if type == "Other" {
             let other = XSOtherViewController()
             other.hidesBottomBarWhenPushed = true

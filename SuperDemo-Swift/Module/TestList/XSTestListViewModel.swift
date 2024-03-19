@@ -25,7 +25,7 @@ class XSTestListViewModel: XSListViewModel<TestUser> {
         let item3 = TestUser(id: "003", name: "DD", email: "DD@gmail.com")
         let item4 = TestUser(id: "004", name: "EE", email: "EE@gmail.com")
         
-        listArray = [item0, item1, item2]
+        listArray = [item0, item1, item2, item3, item4]
         
     }
     

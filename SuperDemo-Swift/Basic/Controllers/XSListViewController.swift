@@ -29,6 +29,7 @@ class XSListViewController<T, VM: XSListViewModel<T>, Cell: XSListTableViewCell<
 
         setupUI()
         viewModel.requestData {
+            
         }
     }
     
