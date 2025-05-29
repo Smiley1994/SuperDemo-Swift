@@ -8,12 +8,15 @@
 
 import UIKit
 import Login
+import GlobalCashier
 import Alamofire
 import SnapKit
 
 class XSUserViewController: UIViewController {
 
-    var loginButton : UIButton!
+    private var loginButton: UIButton!
+    
+    private var payButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,13 +32,28 @@ class XSUserViewController: UIViewController {
             make.size.equalTo(CGSize(width: 100, height: 50))
         }
         
+        payButton = UIButton(type: .custom)
+        payButton.setTitle("Pay", for: .normal)
+        payButton.setTitleColor(.red, for: .normal)
+        payButton.addTarget(self, action: #selector(openGlobalCashierPage), for: .touchUpInside)
+        self.view.addSubview(payButton)
+        payButton.snp.makeConstraints { make in
+            make.left.top.equalTo(self.view).offset(200)
+            make.size.equalTo(CGSize(width: 100, height: 50))
+        }
+        
     }
 
-    @objc
-    func openLogin() {
+    @objc private func openLogin() {
         let login = XSLoginViewController()
         login.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(login, animated: true)
     }
 
+    @objc private func openGlobalCashierPage() {
+        let globalCashier = GlobalCashierViewController()
+        globalCashier.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(globalCashier, animated: true)
+    }
+    
 }

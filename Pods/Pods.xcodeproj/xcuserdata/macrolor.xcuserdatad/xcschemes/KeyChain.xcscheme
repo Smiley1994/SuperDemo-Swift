@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1500"
+   LastUpgradeVersion = "1600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6C3A9DD5F3EBA3EFF3DDD5674A5148D4"
-               BuildableName = "KeyChain.framework"
+               BuildableName = "libKeyChain.a"
                BlueprintName = "KeyChain"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

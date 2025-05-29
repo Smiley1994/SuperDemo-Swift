@@ -8,6 +8,9 @@
   "authors": {
     "macrolor": "smileysun1994@gmail.com"
   },
+  "platforms": {
+    "ios": "13.0"
+  },
   "source": {
     "git": "https://github.com/Smiley1994/KeyChain.git",
     "tag": "0.0.1"
@@ -16,12 +19,5 @@
     "KeyChain",
     "KeyChain/**/*.{h,m,swift}"
   ],
-  "exclude_files": "KeyChain/Exclude",
-  "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "visionos": null,
-    "watchos": null
-  }
+  "exclude_files": "KeyChain/Exclude"
 }

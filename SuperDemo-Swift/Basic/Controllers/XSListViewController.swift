@@ -38,7 +38,7 @@ class XSListViewController<T, VM: XSListViewModel<T>, Cell: XSListTableViewCell<
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(Cell.self, forCellReuseIdentifier: "Cell")
-        tableView.backgroundColor = .red
+        tableView.backgroundColor = .white
         tableView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }

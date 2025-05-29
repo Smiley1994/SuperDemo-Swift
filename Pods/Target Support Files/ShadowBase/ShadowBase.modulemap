@@ -1,4 +1,4 @@
-framework module ShadowBase {
+module ShadowBase {
   umbrella header "ShadowBase-umbrella.h"
 
   export *

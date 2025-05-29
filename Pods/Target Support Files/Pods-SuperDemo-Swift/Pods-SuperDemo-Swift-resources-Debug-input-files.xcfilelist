@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SuperDemo-Swift/Pods-SuperDemo-Swift-resources.sh
+${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/GlobalCashier/GlobalCashierResources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.bundle

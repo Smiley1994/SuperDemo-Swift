@@ -1,0 +1,32 @@
+{
+  "name": "GlobalCashier",
+  "version": "0.0.1",
+  "summary": "global cashier.",
+  "description": "收银台",
+  "homepage": "http://example.com/GlobalCashier",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sunnnn": "smileysun1994@gmail.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "Classes/**/*.{h,m,swift}",
+  "resource_bundles": {
+    "GlobalCashierResources": [
+      "Resources/**/*"
+    ]
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "SDWebImage": [],
+    "AlipaySDK-iOS": []
+  }
+}

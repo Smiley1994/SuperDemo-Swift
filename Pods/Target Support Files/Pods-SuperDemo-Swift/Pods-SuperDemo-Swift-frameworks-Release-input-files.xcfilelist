@@ -1,7 +1,11 @@
 ${PODS_ROOT}/Target Support Files/Pods-SuperDemo-Swift/Pods-SuperDemo-Swift-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/GlobalCashier/GlobalCashier.framework
 ${BUILT_PRODUCTS_DIR}/KeyChain/KeyChain.framework
 ${BUILT_PRODUCTS_DIR}/Login/Login.framework
 ${BUILT_PRODUCTS_DIR}/Mixpanel-swift/Mixpanel.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
 ${BUILT_PRODUCTS_DIR}/ShadowBase/ShadowBase.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework

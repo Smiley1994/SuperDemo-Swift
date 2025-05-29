@@ -84,9 +84,6 @@ class XSIndexViewController: UIViewController,UITableViewDelegate,UITableViewDat
         } else if type == "Other" {
             let other = XSOtherViewController()
             other.hidesBottomBarWhenPushed = true
-            other.close = { (backStr : String) -> () in
-                print(backStr)
-            }
             navigationController?.pushViewController(other, animated: true)
         } else if type == "TestList" {
             let testList = XSTestListViewController(viewModel: XSTestListViewModel())
@@ -96,13 +93,17 @@ class XSIndexViewController: UIViewController,UITableViewDelegate,UITableViewDat
         
     }
     
+    func openNoteDetailViewController() {
+        let noteDetail = XSNoteDetailViewController()
+        noteDetail.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(noteDetail, animated: true)
+    }
+    
     func openScrollCardViewController() {
         let playerViewController = XSScrollCardViewController()
         playerViewController.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(playerViewController, animated: true)
     }
-    
-    
     
     func isJailBroken() -> Bool {
         //判断设备上是否安装了这些程序

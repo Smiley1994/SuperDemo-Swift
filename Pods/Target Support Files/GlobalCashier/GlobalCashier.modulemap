@@ -1,0 +1,6 @@
+module GlobalCashier {
+  umbrella header "GlobalCashier-umbrella.h"
+
+  export *
+  module * { export * }
+}

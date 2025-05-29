@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1500"
+   LastUpgradeVersion = "1600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "891BBD7E4D1F54F814E1415417E2BC3B"
-               BuildableName = "Login.framework"
+               BuildableName = "libLogin.a"
                BlueprintName = "Login"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

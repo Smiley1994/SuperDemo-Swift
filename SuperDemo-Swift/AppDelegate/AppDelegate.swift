@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import ShadowBase
+//import ShadowBase
 import Mixpanel
 
 @main
@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 //        self.setupMixpanel()
 //        self.setupShadowBase()
-        
+                
         return true
     }
     
@@ -50,7 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func setupShadowBase () {
-        ShadowBase.initialize(appkey: "abc ....")
+//        ShadowBase.initialize(appkey: "abc ....")
     }
 
 }

@@ -12,6 +12,8 @@ class XSTestListViewController: XSListViewController<TestUser, XSTestListViewMod
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "列表测试"
+        
         self.tableView.snp.updateConstraints { make in
             make.edges.equalToSuperview().inset(UIEdgeInsets(top: 88, left: 0, bottom: 0, right: 0))
         }
@@ -21,7 +23,7 @@ class XSTestListViewController: XSListViewController<TestUser, XSTestListViewMod
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+        navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
     override func viewDidAppear(_ animated: Bool) {
