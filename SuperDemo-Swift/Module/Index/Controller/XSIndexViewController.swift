@@ -9,13 +9,13 @@
 import UIKit
 import Mixpanel
 
-class XSIndexViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class XSIndexViewController: UIViewController {
     
-    var navigationView : XSIndexNavigationView!
+    private var navigationView : XSIndexNavigationView!
     
-    var tableView : UITableView!
+    private var collectionView : UICollectionView!
     
-    var dataArray = [String]()
+    private var dataArray = [XSIndexModel]()
     
     
     override func viewWillAppear(_ animated: Bool) {
@@ -27,95 +27,92 @@ class XSIndexViewController: UIViewController,UITableViewDelegate,UITableViewDat
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         
-        dataArray = ["ScrollCard", "NoteDetail", "TestList", "Other"]
-        
-        createNavigation()
-        createTableView()
-        
-        
+        setupNavigation()
+        setupCollectionView()
+        setupDatas()
     }
     
-    func createNavigation() {
+    private func setupNavigation() {
         navigationView = XSIndexNavigationView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: NavBarHeight))
         view.addSubview(navigationView)
     }
     
     
-    func createTableView() {
-        tableView = UITableView()
-        tableView.delegate = self
-        tableView.dataSource = self
-        tableView.register(XSIndexDefaultCell.self, forCellReuseIdentifier: "default")
-        view.addSubview(tableView)
-        tableView.snp.makeConstraints { (make) in
-            make.left.bottom.right.equalTo(self.view)
-            make.top.equalTo(navigationView.snp.bottom)
+    private func setupCollectionView() {
+        
+        let layout = UICollectionViewFlowLayout()
+//        layout.minimumLineSpacing = 10
+//        layout.minimumInteritemSpacing = 10
+        collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView.dataSource = self
+        collectionView.delegate = self
+        collectionView.register(XSIndexCollectionViewCell.self, forCellWithReuseIdentifier: "XSIndexCollectionViewCellId")
+        view.addSubview(collectionView)
+        collectionView.snp.makeConstraints { make in
+            make.top.equalTo(navigationView.snp.bottom).offset(10)
+            make.left.equalTo(view.snp.left).offset(15)
+            make.right.equalTo(view.snp.right).inset(15)
+            make.bottom.equalTo(view).inset(100)
         }
+        
+    }
+    
+    private func setupDatas() {
+        
+        let string = XSIndexModel(title: "复制文字", icon: "document.on.document")
+        
+        let media = XSIndexModel(title: "传输\n图片/视频", icon: "tv.and.mediabox")
+        
+        let location = XSIndexModel(title: "修改定位", icon: "location")
+        
+        dataArray = [string, media, location]
+        
+        collectionView.reloadData()
+        
     }
     
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    
+}
+
+extension XSIndexViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return dataArray.count
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return XSIndexDefaultCell.calculateHeight()
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: (ScreenWidth - 20) / 4 , height: (ScreenWidth - 20) / 4 + 20)
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "default") as! XSIndexDefaultCell
-        cell = XSIndexDefaultCell(style: .default, reuseIdentifier: "default")
-        cell.headerView.titleLabel.text = dataArray[indexPath.row]
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "XSIndexCollectionViewCellId", for: indexPath) as! XSIndexCollectionViewCell
+        cell.model = dataArray[indexPath.row]
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        let type = dataArray[indexPath.row]
-        
-        if type == "ScrollCard" {
-//            Mixpanel.mainInstance().track(event: "Open Card", properties: ["time":"123456",
-//                                                                           "type":"click"])
-            openScrollCardViewController()
-        } else if type == "NoteDetail" {
-            let noteDetail = XSNoteDetailViewController()
-            noteDetail.hidesBottomBarWhenPushed = true
-            navigationController?.pushViewController(noteDetail, animated: true)
-        } else if type == "Other" {
-            let other = XSOtherViewController()
-            other.hidesBottomBarWhenPushed = true
-            navigationController?.pushViewController(other, animated: true)
-        } else if type == "TestList" {
-            let testList = XSTestListViewController(viewModel: XSTestListViewModel())
-            testList.hidesBottomBarWhenPushed = true
-            navigationController?.pushViewController(testList, animated: true)
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+     
+        if indexPath.row == 0 {
+            openCopyStringViewController()
+        } else if indexPath.row == 1 {
+            openXSSendMediaViewController()
+        } else if indexPath.row == 2 {
+            
+        } else if indexPath.row == 3 {
+            
         }
-        
     }
     
-    func openNoteDetailViewController() {
-        let noteDetail = XSNoteDetailViewController()
-        noteDetail.hidesBottomBarWhenPushed = true
-        navigationController?.pushViewController(noteDetail, animated: true)
+    private func openCopyStringViewController() {
+        let vc = XSCopyStrViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
-    func openScrollCardViewController() {
-        let playerViewController = XSScrollCardViewController()
-        playerViewController.hidesBottomBarWhenPushed = true
-        navigationController?.pushViewController(playerViewController, animated: true)
-    }
-    
-    func isJailBroken() -> Bool {
-        //判断设备上是否安装了这些程序
-        let apps = ["/APPlications/Cydia.app","/APPlications/limera1n.app","/APPlications/greenpois0n.app","/APPlications/blackra1n.app","/APPlications/blacksn0w.app","/APPlications/redsn0w.app","/APPlications/Absinthe.app"]
-        for app in apps {
-            //通过文件管理器，判断在指定的目录下，是否在对应的应用程序。如果存在的话。就表示当前设备为越狱设备。
-            if FileManager.default.fileExists(atPath: app){
-                return true
-            }
-        }
-        return false
-        
+    private func openXSSendMediaViewController() {
+        let vc = XSUploadMediaViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 }

@@ -23,19 +23,11 @@
 		0BB49CCC27B64DBE00050B01 /* XSLeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CC827B64DBE00050B01 /* XSLeftMenuViewController.swift */; };
 		0BB49CCD27B64DBE00050B01 /* XSRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CC927B64DBE00050B01 /* XSRootViewController.swift */; };
 		0BB49CCF27B6560100050B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB49CCE27B6560100050B01 /* LaunchScreen.storyboard */; };
-		0BB49CE027B65ACD00050B01 /* XSOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CD327B65ACD00050B01 /* XSOtherViewController.swift */; };
 		0BB49CE127B65ACD00050B01 /* XSIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CD427B65ACD00050B01 /* XSIndexViewController.swift */; };
-		0BB49CE227B65ACD00050B01 /* XSNoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CD527B65ACD00050B01 /* XSNoteDetailViewController.swift */; };
-		0BB49CE327B65ACD00050B01 /* XSScrollCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CD627B65ACD00050B01 /* XSScrollCardViewController.swift */; };
-		0BB49CE427B65ACD00050B01 /* XSCardFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CD827B65ACD00050B01 /* XSCardFlowLayout.swift */; };
-		0BB49CE527B65ACD00050B01 /* XSIndexDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CD927B65ACD00050B01 /* XSIndexDefaultCell.swift */; };
-		0BB49CE627B65ACD00050B01 /* XSIndexDefaultCellHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CDA27B65ACD00050B01 /* XSIndexDefaultCellHeaderView.swift */; };
-		0BB49CE727B65ACD00050B01 /* XSCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CDB27B65ACD00050B01 /* XSCardCell.swift */; };
-		0BB49CE827B65ACD00050B01 /* XSIndexNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CDC27B65ACD00050B01 /* XSIndexNavigationView.swift */; };
-		0BB49CE927B65ACD00050B01 /* XSDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CDD27B65ACD00050B01 /* XSDefaultCell.swift */; };
 		0BB49CEA27B65ACD00050B01 /* XSUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CDF27B65ACD00050B01 /* XSUserViewController.swift */; };
 		0BB49CEF27B65B0B00050B01 /* XSPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CED27B65B0B00050B01 /* XSPlayerView.swift */; };
 		0BB49CF027B65B0B00050B01 /* XSPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB49CEE27B65B0B00050B01 /* XSPlayerViewController.swift */; };
+		714A0C0F2DF0988A007F48A8 /* MediaUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A0C0E2DF0988A007F48A8 /* MediaUploadManager.swift */; };
 		717641CB2DE8CF1700C83C99 /* WebServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717641CA2DE8CF1700C83C99 /* WebServerManager.swift */; };
 		717641D32DE8D2A300C83C99 /* libGCDWebServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 717641D22DE8D2A300C83C99 /* libGCDWebServer.a */; };
 		71AE428F2B4ECFD00012248B /* XSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE428E2B4ECFD00012248B /* XSBaseViewController.swift */; };
@@ -47,6 +39,11 @@
 		71AE42AA2B5244C30012248B /* XSTestListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE42A92B5244C30012248B /* XSTestListViewModel.swift */; };
 		71AE42AC2B5245740012248B /* XSTestListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE42AB2B5245740012248B /* XSTestListTableViewCell.swift */; };
 		71AE42AE2B5247240012248B /* XSTestListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE42AD2B5247240012248B /* XSTestListViewController.swift */; };
+		71BE87A42DF1D6620046256F /* XSIndexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE87A32DF1D6620046256F /* XSIndexModel.swift */; };
+		71BE87A62DF1D99E0046256F /* XSIndexCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE87A52DF1D99E0046256F /* XSIndexCollectionViewCell.swift */; };
+		71BE87A82DF1E6230046256F /* XSCopyStrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE87A72DF1E6230046256F /* XSCopyStrViewController.swift */; };
+		71BE87AA2DF1E8DA0046256F /* XSIndexNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE87A92DF1E8DA0046256F /* XSIndexNavigationView.swift */; };
+		71BE87AC2DF1EABC0046256F /* XSUploadMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE87AB2DF1EABC0046256F /* XSUploadMediaViewController.swift */; };
 		71D1E9ED2AFD288C0048AC6E /* XSExtension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1E9EC2AFD288C0048AC6E /* XSExtension+UIImage.swift */; };
 		71D1E9EF2AFD2A1E0048AC6E /* XSExtension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1E9EE2AFD2A1E0048AC6E /* XSExtension+UIColor.swift */; };
 		71D1E9F12AFD2C020048AC6E /* XSExtension+UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1E9F02AFD2C020048AC6E /* XSExtension+UICollectionViewCell.swift */; };
@@ -73,21 +70,13 @@
 		0BB49CC827B64DBE00050B01 /* XSLeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSLeftMenuViewController.swift; sourceTree = "<group>"; };
 		0BB49CC927B64DBE00050B01 /* XSRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSRootViewController.swift; sourceTree = "<group>"; };
 		0BB49CCE27B6560100050B01 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0BB49CD327B65ACD00050B01 /* XSOtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSOtherViewController.swift; sourceTree = "<group>"; };
 		0BB49CD427B65ACD00050B01 /* XSIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSIndexViewController.swift; sourceTree = "<group>"; };
-		0BB49CD527B65ACD00050B01 /* XSNoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSNoteDetailViewController.swift; sourceTree = "<group>"; };
-		0BB49CD627B65ACD00050B01 /* XSScrollCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSScrollCardViewController.swift; sourceTree = "<group>"; };
-		0BB49CD827B65ACD00050B01 /* XSCardFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSCardFlowLayout.swift; sourceTree = "<group>"; };
-		0BB49CD927B65ACD00050B01 /* XSIndexDefaultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSIndexDefaultCell.swift; sourceTree = "<group>"; };
-		0BB49CDA27B65ACD00050B01 /* XSIndexDefaultCellHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSIndexDefaultCellHeaderView.swift; sourceTree = "<group>"; };
-		0BB49CDB27B65ACD00050B01 /* XSCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSCardCell.swift; sourceTree = "<group>"; };
-		0BB49CDC27B65ACD00050B01 /* XSIndexNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSIndexNavigationView.swift; sourceTree = "<group>"; };
-		0BB49CDD27B65ACD00050B01 /* XSDefaultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSDefaultCell.swift; sourceTree = "<group>"; };
 		0BB49CDF27B65ACD00050B01 /* XSUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSUserViewController.swift; sourceTree = "<group>"; };
 		0BB49CED27B65B0B00050B01 /* XSPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlayerView.swift; sourceTree = "<group>"; };
 		0BB49CEE27B65B0B00050B01 /* XSPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlayerViewController.swift; sourceTree = "<group>"; };
 		260DF14E6711F11D3F1FD3B6 /* Pods-SuperDemo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperDemo-Swift.release.xcconfig"; path = "Target Support Files/Pods-SuperDemo-Swift/Pods-SuperDemo-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		442AD035F24CAEBD7268592B /* libPods-SuperDemo-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperDemo-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		714A0C0E2DF0988A007F48A8 /* MediaUploadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaUploadManager.swift; sourceTree = "<group>"; };
 		717641CA2DE8CF1700C83C99 /* WebServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServerManager.swift; sourceTree = "<group>"; };
 		717641CE2DE8CFF700C83C99 /* SuperDemo-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperDemo-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		717641D22DE8D2A300C83C99 /* libGCDWebServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGCDWebServer.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +89,11 @@
 		71AE42A92B5244C30012248B /* XSTestListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSTestListViewModel.swift; sourceTree = "<group>"; };
 		71AE42AB2B5245740012248B /* XSTestListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSTestListTableViewCell.swift; sourceTree = "<group>"; };
 		71AE42AD2B5247240012248B /* XSTestListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSTestListViewController.swift; sourceTree = "<group>"; };
+		71BE87A32DF1D6620046256F /* XSIndexModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSIndexModel.swift; sourceTree = "<group>"; };
+		71BE87A52DF1D99E0046256F /* XSIndexCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSIndexCollectionViewCell.swift; sourceTree = "<group>"; };
+		71BE87A72DF1E6230046256F /* XSCopyStrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSCopyStrViewController.swift; sourceTree = "<group>"; };
+		71BE87A92DF1E8DA0046256F /* XSIndexNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSIndexNavigationView.swift; sourceTree = "<group>"; };
+		71BE87AB2DF1EABC0046256F /* XSUploadMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSUploadMediaViewController.swift; sourceTree = "<group>"; };
 		71D1E9EC2AFD288C0048AC6E /* XSExtension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XSExtension+UIImage.swift"; sourceTree = "<group>"; };
 		71D1E9EE2AFD2A1E0048AC6E /* XSExtension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XSExtension+UIColor.swift"; sourceTree = "<group>"; };
 		71D1E9F02AFD2C020048AC6E /* XSExtension+UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XSExtension+UICollectionViewCell.swift"; sourceTree = "<group>"; };
@@ -140,7 +134,6 @@
 		0BB49C6427B6035600050B01 /* SuperDemo-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				717641C92DE8CEFE00C83C99 /* Managers */,
 				71AE428B2B4ECF4E0012248B /* Basic */,
 				0BB49C9F27B6483F00050B01 /* AppDelegate */,
 				0BB49CA127B6492100050B01 /* Common */,
@@ -255,8 +248,10 @@
 		0BB49CD127B65ACD00050B01 /* Index */ = {
 			isa = PBXGroup;
 			children = (
+				71BE87A22DF1D64C0046256F /* Models */,
 				0BB49CD227B65ACD00050B01 /* Controller */,
 				0BB49CD727B65ACD00050B01 /* View */,
+				717641C92DE8CEFE00C83C99 /* Managers */,
 			);
 			path = Index;
 			sourceTree = "<group>";
@@ -265,9 +260,8 @@
 			isa = PBXGroup;
 			children = (
 				0BB49CD427B65ACD00050B01 /* XSIndexViewController.swift */,
-				0BB49CD527B65ACD00050B01 /* XSNoteDetailViewController.swift */,
-				0BB49CD327B65ACD00050B01 /* XSOtherViewController.swift */,
-				0BB49CD627B65ACD00050B01 /* XSScrollCardViewController.swift */,
+				71BE87A72DF1E6230046256F /* XSCopyStrViewController.swift */,
+				71BE87AB2DF1EABC0046256F /* XSUploadMediaViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -275,12 +269,8 @@
 		0BB49CD727B65ACD00050B01 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0BB49CD827B65ACD00050B01 /* XSCardFlowLayout.swift */,
-				0BB49CD927B65ACD00050B01 /* XSIndexDefaultCell.swift */,
-				0BB49CDA27B65ACD00050B01 /* XSIndexDefaultCellHeaderView.swift */,
-				0BB49CDB27B65ACD00050B01 /* XSCardCell.swift */,
-				0BB49CDC27B65ACD00050B01 /* XSIndexNavigationView.swift */,
-				0BB49CDD27B65ACD00050B01 /* XSDefaultCell.swift */,
+				71BE87A52DF1D99E0046256F /* XSIndexCollectionViewCell.swift */,
+				71BE87A92DF1E8DA0046256F /* XSIndexNavigationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -323,6 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				717641CA2DE8CF1700C83C99 /* WebServerManager.swift */,
+				714A0C0E2DF0988A007F48A8 /* MediaUploadManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -380,6 +371,14 @@
 				71AE42AD2B5247240012248B /* XSTestListViewController.swift */,
 			);
 			path = TestList;
+			sourceTree = "<group>";
+		};
+		71BE87A22DF1D64C0046256F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				71BE87A32DF1D6620046256F /* XSIndexModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E31C8B0072A2A802366EBD3B /* Pods */ = {
@@ -511,28 +510,28 @@
 				0BB49CC127B6494900050B01 /* ArchiveMethod.swift in Sources */,
 				71AE428F2B4ECFD00012248B /* XSBaseViewController.swift in Sources */,
 				71D1E9ED2AFD288C0048AC6E /* XSExtension+UIImage.swift in Sources */,
-				0BB49CE327B65ACD00050B01 /* XSScrollCardViewController.swift in Sources */,
-				0BB49CE527B65ACD00050B01 /* XSIndexDefaultCell.swift in Sources */,
 				0BB49CBA27B6494900050B01 /* XSExtension+UIView.swift in Sources */,
 				0BB49CBE27B6494900050B01 /* XSFitDevice.swift in Sources */,
 				71D1E9F12AFD2C020048AC6E /* XSExtension+UICollectionViewCell.swift in Sources */,
+				71BE87AA2DF1E8DA0046256F /* XSIndexNavigationView.swift in Sources */,
+				71BE87A62DF1D99E0046256F /* XSIndexCollectionViewCell.swift in Sources */,
 				0BB49CCB27B64DBE00050B01 /* XSChassisViewController.swift in Sources */,
 				71AE42962B4ED1BD0012248B /* XSBaseViewModel.swift in Sources */,
 				71AE42AE2B5247240012248B /* XSTestListViewController.swift in Sources */,
+				71BE87A42DF1D6620046256F /* XSIndexModel.swift in Sources */,
 				0BB49CC227B6494900050B01 /* XSConstants.swift in Sources */,
-				0BB49CE827B65ACD00050B01 /* XSIndexNavigationView.swift in Sources */,
 				0BB49CCA27B64DBE00050B01 /* XSSplashViewController.swift in Sources */,
 				71AE42AA2B5244C30012248B /* XSTestListViewModel.swift in Sources */,
 				71AE42A32B521E110012248B /* XSListViewModel.swift in Sources */,
 				0BB49CEF27B65B0B00050B01 /* XSPlayerView.swift in Sources */,
-				0BB49CE027B65ACD00050B01 /* XSOtherViewController.swift in Sources */,
-				0BB49CE427B65ACD00050B01 /* XSCardFlowLayout.swift in Sources */,
+				71BE87AC2DF1EABC0046256F /* XSUploadMediaViewController.swift in Sources */,
 				71AE42A12B5051E20012248B /* XSListTableViewCell.swift in Sources */,
 				0BB49CB827B6494900050B01 /* XSExtension+UITableViewCell.swift in Sources */,
 				71D1E9EF2AFD2A1E0048AC6E /* XSExtension+UIColor.swift in Sources */,
+				71BE87A82DF1E6230046256F /* XSCopyStrViewController.swift in Sources */,
+				714A0C0F2DF0988A007F48A8 /* MediaUploadManager.swift in Sources */,
 				0BB49CBB27B6494900050B01 /* XSScreenFit.swift in Sources */,
 				717641CB2DE8CF1700C83C99 /* WebServerManager.swift in Sources */,
-				0BB49CE927B65ACD00050B01 /* XSDefaultCell.swift in Sources */,
 				0BB49C6627B6035600050B01 /* AppDelegate.swift in Sources */,
 				0BB49CCC27B64DBE00050B01 /* XSLeftMenuViewController.swift in Sources */,
 				0BB49CE127B65ACD00050B01 /* XSIndexViewController.swift in Sources */,
@@ -540,12 +539,9 @@
 				0BB49CB727B6494900050B01 /* XSExtension+String.swift in Sources */,
 				0BB49CC427B6494900050B01 /* ANN9PostDevice.swift in Sources */,
 				71AE42912B4ED12B0012248B /* XSListViewController.swift in Sources */,
-				0BB49CE727B65ACD00050B01 /* XSCardCell.swift in Sources */,
 				71AE42982B50050A0012248B /* XSBaseModel.swift in Sources */,
 				0BB49CCD27B64DBE00050B01 /* XSRootViewController.swift in Sources */,
-				0BB49CE227B65ACD00050B01 /* XSNoteDetailViewController.swift in Sources */,
 				0BB49CF027B65B0B00050B01 /* XSPlayerViewController.swift in Sources */,
-				0BB49CE627B65ACD00050B01 /* XSIndexDefaultCellHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,6 +677,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SuperDemo-Swift/Other/Info.plist";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = " 需要访问本地网络来接收来自浏览器的文字";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要保存上传的图片或视频到相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
@@ -715,6 +712,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SuperDemo-Swift/Other/Info.plist";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = " 需要访问本地网络来接收来自浏览器的文字";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "需要保存上传的图片或视频到相册";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;

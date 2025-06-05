@@ -25,16 +25,16 @@ class XSRootViewController: UITabBarController {
         let indexNavgationViewController = UINavigationController(rootViewController: indexViewController)
         
         
-        let userViewController = XSUserViewController()
-        userViewController.tabBarItem.image = UIImage(named: "tab_user_normal")
-        userViewController.tabBarItem.selectedImage = UIImage(named: "tab_user_selected")?.withRenderingMode(.alwaysOriginal)
-        userViewController.tabBarItem.title = "user"
-        userViewController.tabBarItem.tag = 1
-        userViewController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.red], for: .selected)
-        let userNavgationViewController = UINavigationController(rootViewController: userViewController)
+//        let userViewController = XSUserViewController()
+//        userViewController.tabBarItem.image = UIImage(named: "tab_user_normal")
+//        userViewController.tabBarItem.selectedImage = UIImage(named: "tab_user_selected")?.withRenderingMode(.alwaysOriginal)
+//        userViewController.tabBarItem.title = "user"
+//        userViewController.tabBarItem.tag = 1
+//        userViewController.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.red], for: .selected)
+//        let userNavgationViewController = UINavigationController(rootViewController: userViewController)
         
         
-        viewControllers = [indexNavgationViewController, userNavgationViewController]
+        viewControllers = [indexNavgationViewController]
         
         self.selectedIndex = 0
         
